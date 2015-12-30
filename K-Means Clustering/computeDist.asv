@@ -1,0 +1,10 @@
+function [x1,x2] = computeDist(X)
+    max = 0;
+    %m = length(X);
+    for i=1:999
+        for j=(i+1):1000
+           dist = sqrt(sum(X(i,:)- X(j,:).^2).^2)  
+        end
+    end
+    
+end
